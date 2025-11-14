@@ -16,8 +16,9 @@
   --color-light: var(--light);
   --color-secondary: var(--secondary);
   --color-primary-alt: var(--primary-alt);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-vogera: var(--font-vogera);
+  --font-sans: var(--font-sans);
+
 }
 
 @media (prefers-color-scheme: dark) {
