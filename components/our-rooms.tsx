@@ -34,7 +34,7 @@ export default function OurRooms(){
                       <div key={room.description}>
                         <div className="relative">
                           <div className="absolute -top-3 bg-[#D49236] text-center uppercase left-[23%] md:left-[28%] font-bold py-1 px-10">{room.available} rooms left</div>
-                          <Image src={room.image} alt={room.title} width={270} height={180} className="w-full h-44 object-cover"/>
+                          <Image src={room.image} alt={room.title} width={270} height={180} className="w-full h-60 object-cover"/>
                         </div>
                         <div className="bg-black/30 p-4">
                           <h3 className="uppercase text-2xl font-semibold">{room.title}</h3>

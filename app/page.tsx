@@ -1,4 +1,5 @@
 "use client"
+import AboutUs from "@/components/about-us";
 import InfoCards from "@/components/info-cards";
 import { MenuIcon } from "@/components/menu-icon";
 import OurRooms from "@/components/our-rooms";
@@ -70,6 +71,7 @@ export default function Home() {
           <main>
             <InfoCards />
             <OurRooms />
+            <AboutUs />
           </main>
         </div>
       </div>
