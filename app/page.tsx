@@ -3,6 +3,7 @@ import AboutUs from "@/components/about-us";
 import InfoCards from "@/components/info-cards";
 import { MenuIcon } from "@/components/menu-icon";
 import OurRooms from "@/components/our-rooms";
+import { Services } from "@/components/services";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -72,6 +73,7 @@ export default function Home() {
             <InfoCards />
             <OurRooms />
             <AboutUs />
+            <Services />
           </main>
         </div>
       </div>
