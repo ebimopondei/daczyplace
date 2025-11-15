@@ -4,7 +4,7 @@ export default function InfoCards(){
     const info = [
         {
           title: "Opening Times",
-          description: "Mon - Fri: 9:00 AM - 6:00 PM",
+          description: "Mon - Sat: 7:00 AM",
           icon: "/svg/clock.svg",
           color: "#D49236"
         },

@@ -61,7 +61,7 @@ export default function Home() {
                     bg-[#fffbf4] z-20
                     text-dark
                     fixed w-3/4 h-full  top-0
-                    ${open ? 'left-0': '-left-100'}
+                    ${open ? 'left-0': '-left-400'}
                     transition-all duration-500 ease-in-out
                 `}
             >   
