@@ -36,7 +36,7 @@ export default function AboutUs(){
                 <div className="md:basis-3/12">
                     <h2 className="text-background font-bold uppercase mb-3">About us</h2>
                     <h2 className="font-vogera text-primary font-bold text-4xl mb-5">Daczy's Place, Home is never missed</h2>
-                    <p className="md:text-xl text-primary">At Dauzy Place, we understand that being
+                    <p className="md:text-xl text-primary">At Daczy Place, we understand that being
                         away from home doesn't mean compromising
                         on comfort. We provide premium short-let
                         apartments and serviced accommodations.

@@ -4,20 +4,23 @@ import Link from "next/link"
 export default function OurRooms(){
     const rooms = [
         {
-          title: "Standard Room",
-          description: "At Dauzy Place, we understand that b away from doesnt mean compro on comfort. We provide premium short ",
+          title: "Standard Room 1",
+          slug: "standard-room-1",
+          description: "At Daczy Place, we understand that b away from doesnt mean compro on comfort. We provide premium short ",
           image: "/images/room-temp.jpg",
           available: 2
         },
         {
-          title: "Standard Room",
-          description: "At Dauzy Place, we understand that b away from home, doesnt mean compro on comfort. We provide premium short ",
+          title: "Standard Room 2",
+          slug: "standard-room-2",
+          description: "At Daczy Place, we understand that b away from home, doesnt mean compro on comfort. We provide premium short ",
           image: "/images/room-temp.jpg",
           available: 1
         },
         {
-          title: "Standard Room",
-          description: "At Dauzy Place, we understand that b away from home, mean compro on comfort. We provide premium short ",
+          title: "Standard Room 3",
+          slug: "standard-room-3",
+          description: "At Daczy Place, we understand that b away from home, mean compro on comfort. We provide premium short ",
           image: "/images/room-temp.jpg",
           available: 2
         },

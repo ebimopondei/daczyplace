@@ -18,12 +18,12 @@ const vogera = localFont({
 
 export const metadata: Metadata = {
   
-  title: "Dauzy Place - Your Home Away From Home", 
+  title: "Daczy Place - Your Home Away From Home", 
   description: "Experience comfort and elegance in our curated short-term rental apartments, designed for modern living.",
-  keywords: ['short-term rental', 'luxury apartments', 'serviced apartments', 'vacation rental', 'dauzy place'],
-  applicationName: 'Dauzy Place',
+  keywords: ['short-term rental', 'luxury apartments', 'serviced apartments', 'vacation rental', 'daczy place'],
+  applicationName: 'Daczy Place',
   
-  metadataBase: new URL('https://www.dauzyplace.com'),
+  metadataBase: new URL('https://www.daczyplace.com'),
 
   robots: {
     index: true,
@@ -35,16 +35,16 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: 'Dauzy Place - Luxury Short-Term Rentals',
+    title: 'Daczy Place - Luxury Short-Term Rentals',
     description: 'Experience comfort and elegance in our curated short-term rental apartments, designed for modern living.',
-    url: 'https://www.dauzyplace.com',
-    siteName: 'Dauzy Place',
+    url: 'https://www.daczyplace.com',
+    siteName: 'Daczy Place',
     images: [
       {
         url: '/logo.png', // Place a 1200x630 image in your /public folder
         width: 1200,
         height: 630,
-        alt: 'Dauzy Place Logo and a view of a luxurious apartment'
+        alt: 'Daczy Place Logo and a view of a luxurious apartment'
       },
     ],
     locale: 'en_US',
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   // 5. Twitter Card
   twitter: {
     card: 'summary_large_image', // Use this for a large image preview
-    title: 'Dauzy Place',
+    title: 'Daczy Place',
     description: 'Your Home Away From Home. Book your short-term stay today!',
     site: '@YourTwitterHandle', // If you have a Twitter account
     creator: '@YourTwitterHandle',
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
   },
   
   // 6. Authors/Branding
-  authors: [{ name: 'Dauzy Place', url: 'https://www.dauzyplace.com' }],
+  authors: [{ name: 'Daczy Place', url: 'https://www.daczyplace.com' }],
 };
 
 export default function RootLayout({
