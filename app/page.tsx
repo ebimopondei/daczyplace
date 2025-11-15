@@ -1,5 +1,6 @@
 "use client"
 import AboutUs from "@/components/about-us";
+import Footer from "@/components/footer";
 import InfoCards from "@/components/info-cards";
 import { MenuIcon } from "@/components/menu-icon";
 import OurRooms from "@/components/our-rooms";
@@ -45,13 +46,13 @@ export default function Home() {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="uppercase"
+                        className="uppercase hover:text-primary-alt transition-all duration-300 hover:scale-105 hover:border-l-2 hover:border-primary-alt hover:pl-3"
                       >{item.name}</a>
                     )
                   })}
                 </nav>
                 
-                <div className="bg-primary text-dark text-lg font-bold py-4 px-10">
+                <div className="cursor-pointer bg-primary text-dark text-lg font-bold py-4 px-10">
                   <p>Book Now</p>
                 </div>
               </div>
@@ -76,6 +77,7 @@ export default function Home() {
             <AboutUs />
             <Services />
             <Testimonials />
+            <Footer />
           </main>
         </div>
       </div>

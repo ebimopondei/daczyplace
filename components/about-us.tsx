@@ -53,7 +53,7 @@ export default function AboutUs(){
                         ))}
                     </div>
 
-                    <button className="px-8 py-3 mt-10 bg-primary text-dark font-semibold text-2xl">Book Now</button>
+                    <button className="cursor-pointer hover:bg-primary-alt px-8 py-3 mt-10 bg-primary text-dark font-semibold text-2xl">Book Now</button>
                 </div>
                 <div className="basis-full md:basis-8/12">
                     <div className="grid md:grid-cols-5 gap-6">
