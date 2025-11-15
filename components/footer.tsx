@@ -30,7 +30,7 @@ export default function Footer(){
     ]
     return(
         <footer className="bg-[#352709] py-20 px-6 md:px-20">
-            <div className="flex items-center justify-between">
+            <div className="flex flex-wrap  items-center justify-between">
                 <h3 className="font-bold text-lg">&copy; Copyright 2025 - <span className="text-primary font-bold">Daczy's Place</span></h3>
                 <div className="flex items-center gap-4">
                     {socialLinks.map(social => (

@@ -36,7 +36,7 @@ export function Services(){
         }
     ]
     return (
-        <div className="bg-dark p-6 md:py-32">
+        <div id="services" className="bg-dark p-6 md:py-32">
             <div className="flex flex-wrap gap-20 items-center justify-between  md:px-40">
 
                 <div className=" cursor-pointer basis-full md:basis-5/12 flex items-center justify-center rounded-2xl bg-[url('/images/play-vid.jpg')] h-120 md:h-150 bg-black/70 bg-blend-multiply  bg-cover">

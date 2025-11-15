@@ -24,7 +24,7 @@ export default function OurRooms(){
     ]
       
     return(
-        <div className="bg-[url('/images/hero.jpg')] bg-black/30 bg-blend-multiply bg-cover md:bg-black/80 py-20 px-6 md:p-20">
+        <div id="apartments" className="bg-[url('/images/hero.jpg')] bg-black/30 bg-blend-multiply bg-cover md:bg-black/80 py-20 px-6 md:p-20">
               <div>
                 <h2 className="text-3xl font-semibold md:text-4xl text-center">Our Rooms</h2>
                 <div className="w-28 md:w-40 mt-4 mx-auto border-b-3 border-primary" />

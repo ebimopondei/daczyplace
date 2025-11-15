@@ -31,7 +31,7 @@ export default function AboutUs(){
 
     ]
     return (
-        <div>
+        <div id="about">
             <div className="flex flex-wrap justify-end items-center bg-[#2c220f] px-6 py-20 md:pl-20 md:pr-0 gap-10">
                 <div className="md:basis-3/12">
                     <h2 className="text-background font-bold uppercase mb-3">About us</h2>

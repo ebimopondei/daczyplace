@@ -37,7 +37,7 @@ export default function Testimonials() {
     },
 ]
   return (
-    <div className='bg-black/90 py-32'>
+    <div id='testimonial' className='bg-black/90 py-32'>
         <div>
             <h3 className='text-2xl md:text-6xl font-bold text-primary text-center'>Testimonials</h3>
             <Swiper
