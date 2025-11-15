@@ -32,7 +32,7 @@ export default function AboutUs(){
     ]
     return (
         <div>
-            <div className="flex flex-wrap justify-end items-center bg-background px-6 py-20 md:pl-20 md:pr-0 gap-10">
+            <div className="flex flex-wrap justify-end items-center bg-[#2c220f] px-6 py-20 md:pl-20 md:pr-0 gap-10">
                 <div className="md:basis-3/12">
                     <h2 className="text-background font-bold uppercase mb-3">About us</h2>
                     <h2 className="font-vogera text-primary font-bold text-4xl mb-5">Daczy's Place, Home is never missed</h2>
