@@ -4,6 +4,7 @@ import InfoCards from "@/components/info-cards";
 import { MenuIcon } from "@/components/menu-icon";
 import OurRooms from "@/components/our-rooms";
 import { Services } from "@/components/services";
+import Testimonials from "@/components/testimonials";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -74,6 +75,7 @@ export default function Home() {
             <OurRooms />
             <AboutUs />
             <Services />
+            <Testimonials />
           </main>
         </div>
       </div>
