@@ -42,7 +42,7 @@ export function Services(){
             <div className="flex flex-wrap gap-20 items-center justify-between  md:px-40">
 
                 <div className=" cursor-pointer basis-full md:basis-5/12  items-center justify-center rounded-2xl bg-[url('/images/play-vid.jpg')] h-120 md:h-150 bg-black/70 bg-blend-multiply  bg-cover">
-                    <PortraitVideo src="/video/output.webm" poster="/images/play-vid.jpg" />  
+                    <PortraitVideo src="/video/output.webm" poster="/images/daczy-vid-placeholder.png" />  
                     {/* <Image src="/svg/play-button.svg" alt="play button" width={64} height={64} className=" w-30 md:w-40 h-30 md:h-40"/> */}
                 </div>
                 <div className="basis-full md:basis-5/12 gap-y-10 md:gap-10  flex items-center flex-wrap  font-vogera justify-between">

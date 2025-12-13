@@ -6,6 +6,7 @@ import { MenuIcon } from "@/components/menu-icon";
 import OurRooms from "@/components/our-rooms";
 import { Services } from "@/components/services";
 import Testimonials from "@/components/testimonials";
+import WhatsAppButton from "@/components/whatsapp-float-button";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -141,7 +142,7 @@ export default function Home() {
           </main>
         </div>
       </div>
-
+      <WhatsAppButton />
     </div>
   );
 }

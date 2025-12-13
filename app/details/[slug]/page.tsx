@@ -16,7 +16,7 @@ export default async function ApartmentDetails({
         'power': '/svg/power.svg',
         'wifi': '/svg/internet.svg',
         'food': '/svg/food.svg',
-        'bed': '/svg/bed.svg',
+        'bed': '/images/bed.png',
     }   
     
     return (
@@ -106,14 +106,20 @@ export default async function ApartmentDetails({
                                 <p className="font-semibold">{room?.guests}</p>
                             </div>
                             <div>
-                                <Link href='#' className="block bg-green-500 text-white px-4 py-6 mt-4 ">
-                                    <button className="font-bold text-2xl text-center w-full">Whatsapp</button>
+                                <Link href={`https://wa.me/${room?.phone}`} className="block bg-green-500 text-white px-4 py-6 mt-4 ">
+                                    <button className="font-bold text-2xl flex items-center justify-center gap-4 text-center w-full">
+                                        <Image src="/svg/whatsapp.svg" alt="whatsapp" width={32} height={32}/>
+                                        Whatsapp</button>
                                 </Link>
-                                <Link href='#' className="block bg-rose-500 text-white px-4 py-6 mt-4 ">
-                                    <button className="font-bold text-2xl text-center w-full">airbnb</button>
+                                <Link href='#' className="block bg-white text-rose-500 border border-rose-500 px-4 py-6 mt-4 ">
+                                    <button className="font-bold text-2xl flex items-center justify-center gap-4 text-center w-full">
+                                        <Image src="/svg/airbnb.svg" alt="airbnb" width={32} height={32}/>
+                                        airbnb</button>
                                 </Link>
-                                <Link href='#' className="block border border-black text-blue-900 px-4 py-6 mt-4 ">
-                                    <button className="font-extrabold text-2xl text-center w-full">Booking.com</button>
+                                <Link href='#' className="block border border-blue-900 text-blue-900 px-4 py-6 mt-4 ">
+                                    <button className="font-extrabold text-2xl flex items-center justify-center gap-4 text-center w-full">
+                                        <Image src="/svg/booking.svg" alt="booking" width={32} height={32}/>
+                                        Booking.com</button>
                                 </Link>
                             </div>
                         </div>

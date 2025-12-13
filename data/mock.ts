@@ -4,8 +4,9 @@ export const rooms = [
         slug: "standard-room-1",
         image: "/images/room-temp.jpg",
         available: 2,
-        address: "No. 29 Akwaraka Avenue, Imo State, Nigeria.",
+        address: "House 29, 1st Avenue. Family Homes Estate, Asaba",
         price: "70,000",
+        phone: "+2349069987349",
         guests: '1-4 Guests',
         short_description: `At Daczy Place, we understand that being away from home doesn't mean compromising
         on comfort.`,
@@ -39,8 +40,9 @@ export const rooms = [
         slug: "standard-room-2",
         image: "/images/room-temp.jpg",
         available: 1,
-        address: "123 Main St, Anytown, Nigeria",
+        address: "House 29, 1st Avenue. Family Homes Estate, Asaba",
         price: "50,000",
+        phone: "+2349069987349",
         guests: '1-4 Guests',
         short_description: `At Daczy Place, we understand that being away from home doesn't mean compromising
         on comfort.`,
@@ -56,7 +58,7 @@ export const rooms = [
                 label: '24Hr Power'
             },
             {
-                icon: 'wifi',
+                icon: 'bed',
                 label: 'Free wifi',
             },
             // {
@@ -74,8 +76,9 @@ export const rooms = [
         slug: "standard-room-3",
         image: "/images/room-temp.jpg",
         available: 2,
-        address: "123 Main St, Anytown, Nigeria",
+        address: "House 29, 1st Avenue. Family Homes Estate, Asaba",
         price: "60,000",
+        phone: "+2349069987349",
         guests: '1-4 Guests',
         short_description: `At Daczy Place, we understand that being away from home doesn't mean compromising
         on comfort.`,
