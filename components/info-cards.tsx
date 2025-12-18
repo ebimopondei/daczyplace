@@ -13,7 +13,7 @@ export default function InfoCards(){
     
         {
           title: "Location",
-          description: "123 Main Street, Cityville",
+          description: "Family Homes Estate, Asaba",
           icon: "/svg/home.svg",
           link: "",
           color: "#A58525"

@@ -8,10 +8,10 @@ export default function OurRooms(){
     return(
         <div id="apartments" className="bg-white text-primary py-20 px-6 md:p-20">
               <div>
-                <h2 className="text-3xl font-semibold md:text-4xl text-center">Our partments</h2>
+                <h2 className="text-3xl font-semibold md:text-4xl text-center">Our Apartments</h2>
                 <div className="w-28 md:w-40 mt-4 mx-auto border-b-3 border-primary" />
 
-                <div className="mt-14 flex flex-col md:flex-row  gap-20">
+                <div className="mt-14 flex items-center justify-center flex-col md:flex-row  gap-20">
                   {rooms.map((room) => {
                     return(
                       <div key={room.slug}>

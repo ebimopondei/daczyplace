@@ -59,7 +59,7 @@ export default function AboutUs(){
                     <div className="grid md:grid-cols-5 gap-6">
                         <div className="rounded-2xl overflow-hidden relative h-64 md:h-full md:row-span-2 col-span-2 w-full">
                             <Image
-                            src="/images/chef.png"
+                            src="/images/IMG_8730.svg"
                             alt="Hero"
                             fill
                             className="object-cover"
