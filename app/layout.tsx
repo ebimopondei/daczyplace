@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: 'Daczy Place',
     images: [
       {
-        url: '/logo.png', // Place a 1200x630 image in your /public folder
+        url: '/logo/Mono-logo-4@3x.png', // Place a 1200x630 image in your /public folder
         width: 1200,
         height: 630,
         alt: 'Daczy Place Logo and a view of a luxurious apartment'

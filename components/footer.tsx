@@ -29,7 +29,14 @@ export default function Footer(){
         }
     ]
     return(
-        <footer className="bg-[#352709] py-20 px-6 md:px-20">
+        <footer className="bg-[#352709] py-14 md:py-20 px-6 md:px-20">
+                <Image
+                    src={"/logo/Mono-logo-4@3x.png"}
+                    alt="logo"
+                    className="w-[182px] md:-[228px] h-6"
+                    width={228}
+                    height={30}
+                />
             <div className="flex flex-wrap  items-center justify-between">
                 <h3 className="font-bold text-lg">&copy; Copyright 2025 - <span className="text-primary font-bold">Daczy's Place</span></h3>
                 <div className="flex items-center gap-4">

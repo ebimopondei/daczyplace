@@ -22,7 +22,7 @@ export default function InfoCards(){
           title: "Contact",
           description: "+2349069987349",
           icon: "/svg/whatsapp.svg",
-          link: "https://wa.me/+2349069987349",
+          link: "https://wa.link/zkvg9t",
           color: "#6E4B1A"
         }
     ]

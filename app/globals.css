@@ -32,6 +32,17 @@
   }
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #DFD6C5;
+    --primary: #D4AF37;
+    --dark: #141313;
+    --light: #F5F5F5;
+    --secondary: #2C2C2C;
+    --primary-alt: #BDA982;
+  }
+}
+
 body {
   background: var(--background);
   color: var(--light);

@@ -13,20 +13,12 @@ export default function AboutUs(){
 
     const stats = [
         {
-            amount: 20,
+            amount: 2,
             title: "Apartments"
         },
         {
-            amount: 1000,
-            title: "Satisfied Guests"
-        },
-        {
-            amount: 10,
+            amount: 1,
             title: "Locations"
-        },
-        {
-            amount: 400,
-            title: "Quality Reviews"
         },
 
     ]
