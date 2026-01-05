@@ -22,7 +22,7 @@ export const rooms: Room[] = [
         image: "/images/IMG_8653.svg",
         available: 2,
         address: "House 29, 1st Avenue. Family Homes Estate, Asaba",
-        price: "130,000",
+        price: "70,000",
         guests: '1-4 Guests',
         short_description: `At Daczy Place, we understand that being away from home doesn't mean compromising
         on comfort.`,
@@ -63,7 +63,7 @@ export const rooms: Room[] = [
         image: "/images/IMG_8688.svg",
         available: 1,
         address: "House 31, 1st Avenue. Family Homes Estate, Asaba",
-        price: "130,000",
+        price: "70,000",
         guests: '1-4 Guests',
         short_description: `At Daczy Place, we understand that being away from home doesn't mean compromising
         on comfort.`,
