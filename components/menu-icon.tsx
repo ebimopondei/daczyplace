@@ -1,5 +1,5 @@
 "use client"
-import { Dispatch, SetStateAction, useState } from "react";
+import { Dispatch, SetStateAction } from "react";
 
 export function MenuIcon({ open, setOpen }: { open: boolean; setOpen: Dispatch<SetStateAction<boolean>> }) {
   return (
@@ -16,7 +16,7 @@ export function MenuIcon({ open, setOpen }: { open: boolean; setOpen: Dispatch<S
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              className={`transform transition duration-300 ease-in-out stroke-slate-900 dark:stroke-white`} 
+              className={`transform transition duration-300 ease-in-out stroke-white`} 
               d="M4 7h16"
               strokeWidth="2"
               strokeLinecap="round"
@@ -27,7 +27,7 @@ export function MenuIcon({ open, setOpen }: { open: boolean; setOpen: Dispatch<S
               }}
             />
             <path
-              className={`transform transition duration-300 ease-in-out stroke-slate-900 dark:stroke-white`} 
+              className={`transform transition duration-300 ease-in-out stroke-white`} 
               d="M4 12h16"
               strokeWidth="2"
               strokeLinecap="round"
@@ -38,7 +38,7 @@ export function MenuIcon({ open, setOpen }: { open: boolean; setOpen: Dispatch<S
               }}
             />
             <path
-              className={`transform transition duration-300 ease-in-out stroke-slate-900 dark:stroke-white`} 
+              className={`transform transition duration-300 ease-in-out stroke-white`} 
               d="M4 17h16"
               strokeWidth="2"
               strokeLinecap="round"

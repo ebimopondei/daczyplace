@@ -1,24 +1,28 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function InfoCards(){
     const info = [
         {
           title: "Opening Times",
-          description: "Mon - Sat: 7:00 AM",
+          description: "We are open 24/7 Mon - Sunday",
           icon: "/svg/clock.svg",
+          link: "",
           color: "#D49236"
         },
     
         {
           title: "Location",
-          description: "123 Main Street, Cityville",
+          description: "Family Homes Estate, Asaba",
           icon: "/svg/home.svg",
+          link: "",
           color: "#A58525"
         },
         {
           title: "Contact",
-          description: "+23481000000000",
-          icon: "/svg/phone.svg",
+          description: "+2349069987349",
+          icon: "/svg/whatsapp.svg",
+          link: "https://wa.link/zkvg9t",
           color: "#6E4B1A"
         }
     ]
@@ -27,15 +31,19 @@ export default function InfoCards(){
         <div className="flex flex-col md:flex-row">
 
             {info.map((record) => (
-            <div key={record.title} className={`bg-[${record.color}]  backdrop-blur-sm shadow-lg ring-1 ring-slate-900/5 p-6 grow`}>
-                <div className="flex items-center gap-4">
-                <Image src={record.icon} alt="clock icon" width={32} height={32} className="w-8 h-8 stroke-primary" />
+                <div key={record.title} className={`bg-[${record.color}]  backdrop-blur-sm shadow-lg ring-1 ring-slate-900/5 p-6 grow`}>
+            <Link href={record.link}  >
                 <div>
-                    <h2 className=" font-semibold ">{record.title}</h2>
-                    <p className=" whitespace-pre-line">{record.description}</p>
+                    <div className="flex items-center gap-4">
+                    <Image src={record.icon} alt="clock icon" width={32} height={32} className="w-8 h-8 stroke-primary" />
+                    <div>
+                        <h2 className=" font-semibold ">{record.title}</h2>
+                        <p className=" whitespace-pre-line">{record.description}</p>
+                    </div>
+                    </div>
                 </div>
+            </Link>
                 </div>
-            </div>
             ))}
             {/* {info.map((record) => (
             <div key={record.title} className={`bg-[${record.color}]  backdrop-blur-sm shadow-lg ring-1 ring-slate-900/5 p-2 grow`}>
